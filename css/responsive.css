@@ -3382,7 +3382,8 @@
     .md-margin-15px-bottom { margin-bottom:15px; }
     .md-margin-20px-bottom { margin-bottom:20px; }
     .md-margin-25px-bottom { margin-bottom:25px; }
-    .md-margin-30px-bottom { margin-bottom:30px; }
+    .md-margin-30px-bottom { margin-bottom:30px; width: 100%; }
+    
     .md-margin-35px-bottom { margin-bottom:35px; }
     .md-margin-40px-bottom { margin-bottom:40px; }
     .md-margin-45px-bottom { margin-bottom:45px; }
@@ -8050,6 +8051,9 @@
     .text-white3 {font-size: 10px; color: #292D2B; margin-bottom: 0;}
 
     .a-btn-oc {display: none;}
+    #terreno{ margin: 0px;}
+    #lista-amenidades{ width: 100%;}
+    #espacio{margin-bottom: 50px;}
 
 }
 @media (max-height: 460px) {
@@ -8075,6 +8079,7 @@
     .text-white3 {font-size: 10px; color: #292D2B; margin-bottom: 0;}
 
     .a-btn-oc {display: none;}
+    
 }
 
 @media (max-height: 600px) {
@@ -8100,4 +8105,6 @@
     .text-white3 {font-size: 10px; color: #292D2B; margin-bottom: 0;}
 
     .a-btn-oc {display: none;}
+    #terreno {margin: 0px 0px;}
+
 }

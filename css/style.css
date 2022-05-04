@@ -539,7 +539,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 ====================================== */
 
 section { padding: 130px 0; overflow: hidden; }
-section.big-section { padding:160px 0; }
+section.big-section { padding:100px 0; }
 section.extra-big-section { padding:200px 0; }
 section.half-section { padding:80px 0; }
 .cursor-none { cursor: none; }
@@ -1823,6 +1823,10 @@ input.btn:focus { border-width: 2px; }
 .padding-9-half-rem-left { padding-left: 9.5rem; }
 .padding-10-rem-left { padding-left: 10rem; }
 .padding-10-half-rem-left { padding-left: 10.5rem; }
+#terreno {margin: 0px 200px; color: black; font-size: 25px;}
+#lista-amenidades{}
+#navbarNav{justify-content: right;}
+#espacio{}
 
 /* padding top bottom */
 .padding-one-tb { padding-top:1%; padding-bottom:1%; }
