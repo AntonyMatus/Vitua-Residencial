@@ -41,17 +41,27 @@ Table of contents
 /* ===================================
     01. Google font
 ====================================== */
-
+/* 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap'); */
 
+
+@font-face {
+    font-family: "AntoniaH1";
+    src: url('../tipografia/Antonia-H1/AntoniaH1-Black.otf');
+}
+
+@font-face {
+    font-family: "Secto-Grotesk-B";
+    src: url('../tipografia/Scto-Grotesk-B/Scto\ Grotesk\ B\ Regular.otf');
+}
 /* ===================================
     02. Reset
 ====================================== */
 
 html { font-size: 14px; }
 *, *::after, *::before { box-sizing: border-box; }
-body { font-size: 15px; line-height: 30px; font-weight: 400; color: #828282; font-family: 'Roboto', sans-serif; padding: 0; margin: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-break: break-word }
+body { font-size: 15px; line-height: 30px; font-weight: 400; color: #828282; font-family: "Secto-Grotesk-B"; padding: 0; margin: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-break: break-word }
 body, html { -moz-osx-font-smoothing: grayscale; }
 a { text-decoration: none; }
 a:hover, a:focus { text-decoration: none; outline: none; outline-offset:0; color: #0038e3; }
@@ -397,10 +407,12 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .bg-light-gray { background-color:#f7f7f7; }
 .bg-bright-red { background-color: #98272a; }
 .bg-fast-blue { background-color: #0038e3; }
+.bg-fast-green-strong{ background-color: #0A4A3B;}
 .bg-neon-blue { background-color: #3452ff; }
 .bg-transparent { background-color: transparent; }
 .bg-sky-blue { background-color: #2e94eb; }
 .bg-green { background-color: #27ae60; }
+.bg-green2 { background-color: #F0FFA6;}
 .bg-green-strong{ background-color: #0A4A3B;}
 .bg-olivine-green { background-color: #8bb867; }
 .bg-orange { background-color: #fd961e; }
@@ -2382,7 +2394,7 @@ input.btn:focus { border-width: 2px; }
 .icon-extra-large { font-size:60px; }
 .icon-large { font-size:50px; }
 .icon-medium { font-size:40px; }
-.icon-very-medium { font-size:35px; }
+.icon-very-medium { font-size:20px; }
 .icon-extra-medium { font-size:32px; }
 .icon-small { font-size:28px; }
 .icon-extra-small { font-size:18px; }
@@ -2765,7 +2777,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 
 /* header background color on scroll */
 .sticky.header-appear .header-light, .sticky .header-light.header-always-fixed-scroll { background-color: #fff !important; box-shadow: 0 0 35px rgba(0,0,0,0.1); border-bottom: none !important }
-.sticky.header-appear .header-dark, .sticky .header-dark.header-always-fixed-scroll { background-color: #0A4A3B !important; box-shadow: 0 0 35px rgba(0,0,0,0.1); border-bottom: none !important; transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
+.sticky.header-appear .header-dark, .sticky .header-dark.header-always-fixed-scroll { background-color: #f2927c !important; box-shadow: 0 0 35px rgba(0,0,0,0.1); border-bottom: none !important; transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
 .sticky .header-light, .sticky .header-light.header-always-fixed-scroll { box-shadow: 0 0 35px rgba(0,0,0,0.1); }
 
 .sticky.header-appear .header-light.transparent, .sticky .header-light.transparent.header-always-fixed-scroll { background-color: rgba(255,255,255,0.6) !important; }
@@ -2776,7 +2788,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 
 .sticky .navbar.header-light .navbar-nav .nav-link, .sticky .navbar.header-light .header-search-icon > a, .sticky .navbar.header-light .header-social-icon > a, .sticky .navbar.header-light .header-cart-icon > a, .sticky .navbar.header-light .header-language > a, .sticky .navbar.header-light .nav-bar-contact { color: #232323 !important; }
 .sticky .navbar.header-light .header-push-button .push-button > span {background: #232323}
-.sticky .navbar.header-dark .navbar-nav .nav-link, .sticky .navbar.header-dark .header-search-icon > a, .sticky .navbar.header-dark .header-social-icon > a, .sticky .navbar.header-dark .header-cart-icon > a, .sticky .navbar.header-dark .header-language > a { color: #fff !important; }
+.sticky .navbar.header-dark .navbar-nav .nav-link, .sticky .navbar.header-dark .header-search-icon > a, .sticky .navbar.header-dark .header-social-icon > a, .sticky .navbar.header-dark .header-cart-icon > a, .sticky .navbar.header-dark .header-language > a { color: #F0FFA6 !important; }
 .sticky .navbar.header-light .btn.btn-white { background-color: #232323; border-color: #232323; color: #fff; }
 
 /* header navigation white */
