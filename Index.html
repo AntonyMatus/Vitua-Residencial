@@ -17,6 +17,12 @@
         <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/plugin.css" />
+        <!-- revolution slider -->
+        <link rel="stylesheet" href="rs-plugin/css/settings.css" type="text/css">
+        <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
+         <!-- load fonts -->
+        <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" type="text/css">
     </head>
     <body data-mobile-nav-style="classic">
         <!-- start header -->
@@ -269,8 +275,8 @@
                                     
                                     <nav>
                                       <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Planta Baja</button>
-                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Planta Alta</button>
+                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">PLANTA BAJA</button>
+                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">PLANTA ALTA</button>
                                         
                                       </div>
                                     </nav>
@@ -387,8 +393,8 @@
 
                                     <nav>
                                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                          <button class="nav-link active" id="nav-plantaB" data-bs-toggle="tab" data-bs-target="#nav-plantaB" type="button" role="tab" aria-controls="nav-plantaB" aria-selected="true">Planta Baja</button>
-                                          <button class="nav-link" id="nav-plantaA" data-bs-toggle="tab" data-bs-target="#nav-plantaA" type="button" role="tab" aria-controls="nav-plantaA" aria-selected="false">Planta Alta</button>
+                                          <button class="nav-link active" id="nav-plantaB" data-bs-toggle="tab" data-bs-target="#nav-plantaB" type="button" role="tab" aria-controls="nav-plantaB" aria-selected="true">PLANTA BAJA</button>
+                                          <button class="nav-link" id="nav-plantaA" data-bs-toggle="tab" data-bs-target="#nav-plantaA" type="button" role="tab" aria-controls="nav-plantaA" aria-selected="false">PLANTA ALTA</button>
                                           
                                         </div>
                                       </nav>
@@ -506,13 +512,225 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div id="content">
+                <div class="container">
+    
+                    <div class="spacer-single"></div>
+    
+                    <!-- portfolio filter begin -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul id="filters" class="wow fadeInUp" data-wow-delay="0s">
+                                <li><a href="#" data-filter=".residential">Modelo A</a></li>
+                                <li><a href="#" data-filter=".hospitaly">Modelo B</a></li>
+                               
+                                <li class="pull-right"><a href="#" data-filter="*" class="selected">Todos</a></li>
+                            </ul>
+    
+                        </div>
+                    </div>
+                    <!-- portfolio filter close -->
+    
+                    <div id="gallery" class="row gallery full-gallery de-gallery pf_4_cols wow fadeInUp" data-wow-delay=".3s">
+    
+                        <!-- gallery item -->
+                        <div class="col-md-4  item mb30 residential">
+                            <div class="picframe">
+                                <a class="simple-ajax-popup-align-top" href="popup_gallery/project-details-1.html">
+                                    <span class="overlay">
+                                        <span class="pf_text">
+                                            <span class="project-name">Eco Green Interior</span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <img class="img-responsive" src="images/imagenesDLUX/galería/fachada-delantera.jpeg" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+    
+                        <!-- gallery item -->
+                        <div class="col-md-4  item mb30 hospitaly">
+                            <div class="picframe">
+                                <a class="simple-ajax-popup-align-top" href="popup_gallery/project-details-2.html">
+                                    <span class="overlay">
+                                        <span class="pf_text">
+                                            <span class="project-name">Modern Elegance Suite</span>
+                                        </span>
+                                    </span>
+                                </a>
+    
+                                <img src="images/imagenesDLUX/galería/fachada-trasera.png" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+    
+                        <!-- gallery item -->
+                        <div class="col-md-4  item mb30 hospitaly">
+                            <div class="picframe">
+                                <a class="simple-ajax-popup-align-top" href="popup_gallery/project-details-3.html">
+                                    <span class="overlay">
+                                        <span class="pf_text">
+                                            <span class="project-name">Apartment Renovation</span>
+                                        </span>
+                                    </span>
+                                </a>
+    
+                                <img src="images/imagenesDLUX/galería/interior1.png" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+    
+                        <!-- gallery item -->
+                        <div class="col-md-4  item mb30 residential">
+                            <div class="picframe">
+                                <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
+                                    <span class="overlay">
+                                        <span class="pf_text">
+                                            <span class="project-name">Youtube Video</span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <img src="images/imagenesDLUX/galería/interior2.png" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+    
+                        <!-- gallery item -->
+                        <div class="col-md-4  item mb30 office">
+                            <div class="picframe">
+                                <a class="simple-ajax-popup-align-top" href="project-details-vimeo.html">
+                                    <span class="overlay">
+                                        <span class="pf_text">
+                                            <span class="project-name">Vimeo Video</span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <img src="images/imagenesDLUX/galería/interior3.png" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+    
+                        <!-- gallery item -->
+                        <div class="col-md-4  item mb30 commercial">
+                            <div class="picframe">
+                                <a class="simple-ajax-popup-align-top" href="project-details.html">
+                                    <span class="overlay">
+                                        <span class="pf_text">
+                                            <span class="project-name">Restaurant In Texas</span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <img src="images/imagenesDLUX/galería/interior4.png" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+    
+                        <!-- gallery item -->
+                        <div class="col-md-4  item mb30 residential">
+                            <div class="picframe">
+                                <a class="simple-ajax-popup-align-top" href="project-details.html">
+                                    <span class="overlay">
+                                        <span class="pf_text">
+                                            <span class="project-name">Summer House</span>
+                                        </span>
+                                    </span>
+                                </a>
+    
+                                <img class="img-responsive" src="images/imagenesDLUX/galería/soluna1.png" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+    
+                        <!-- gallery item -->
+                        <div class="col-md-4  item mb30 office">
+                            <div class="picframe">
+                                <a class="simple-ajax-popup-align-top" href="project-details.html">
+                                    <span class="overlay">
+                                        <span class="pf_text">
+                                            <span class="project-name">Office On Space</span>
+                                        </span>
+                                    </span>
+                                </a>
+    
+                                <img src="images/imagenesDLUX/galería/soluna2.png" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+    
+                        <!-- gallery item -->
+                        <div class="col-md-4  item mb30 office">
+                            <div class="picframe">
+                                <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
+                                    <span class="overlay">
+                                        <span class="pf_text">
+                                            <span class="project-name">Luxury Living Room</span>
+                                        </span>
+                                    </span>
+                                </a>
+    
+                                <img src="images/imagenesDLUX/galería/soluna3.png" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+    
+                        <!-- gallery item -->
+                        <div class="col-md-4  item mb30 residential">
+                            <div class="picframe">
+                                <a class="simple-ajax-popup-align-top" href="project-details-vimeo.html">
+                                    <span class="overlay">
+                                        <span class="pf_text">
+                                            <span class="project-name">Cozy Bedroom</span>
+                                        </span>
+                                    </span>
+                                </a>
+    
+                                <img src="images/imagenesDLUX/galería/soluna4.png" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+    
+                        <!-- gallery item -->
+                        <div class="col-md-4  item mb30 hospitaly">
+                            <div class="picframe">
+                                <a class="simple-ajax-popup-align-top" href="project-details.html">
+                                    <span class="overlay">
+                                        <span class="pf_text">
+                                            <span class="project-name">Classic Furnishing</span>
+                                        </span>
+                                    </span>
+                                </a>
+    
+                                <img src="images/imagenesDLUX/galería/soluna5.png" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+    
+                        <!-- gallery item -->
+                        <div class="col-md-4  item mb30 commercial">
+                            <div class="picframe">
+                                <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
+                                    <span class="overlay">
+                                        <span class="pf_text">
+                                            <span class="project-name">Restaurant In Cannes</span>
+                                        </span>
+                                    </span>
+                                </a>
+    
+                                <img src="images/imagenesDLUX/galería/soluna6.png" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+    
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 padding-10-rem-left pe-0 portfolio-colorful lg-padding-6-rem-left md-no-padding-left wow animate__fadeIn" data-wow-delay="0.4s" data-opacity="0.9" data-backgroundcolor="#292B2D,#292B2D,#292B2D,#292B2D">
                         <div class="swiper-container white-move swiper-auto-slide" data-slider-options='{"slidesPerView": "auto", "spaceBetween": 20, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "effect": "slide" }'>
                             <div class="swiper-wrapper">
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/fachada-delantera.jpeg"
                                          title="DLUX - Fachada delantera "
@@ -548,10 +766,10 @@
                                             </div>
                                         </a>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/fachada-trasera.png"
                                          title="DLUX - Fachada Trasera "
@@ -573,10 +791,10 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/interior1.png"
                                         title="DLUX - Interior 1 "
@@ -598,10 +816,10 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/interior2.png"
                                         title="DLUX - Interior 2 "
@@ -623,10 +841,10 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/interior3.png"
                                         title="DLUX - Interior 3 "
@@ -648,10 +866,10 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/interior4.png"
                                         title="DLUX - Interior 4 "
@@ -673,10 +891,10 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/soluna1.png"
                                         title="DLUX - Soluna 1 "
@@ -698,10 +916,10 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/soluna2.png"
                                         title="DLUX - Soluna 2"
@@ -723,10 +941,10 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/soluna3.png"
                                         title="DLUX - Soluna 3 "
@@ -748,10 +966,10 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/soluna4.png"
                                         title="DLUX - Soluna 4"
@@ -773,10 +991,10 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/soluna5.png"
                                         title="DLUX - Soluna 5 "
@@ -798,10 +1016,10 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/soluna6.png"
                                         title="DELUX - Soluna 6 "
@@ -823,10 +1041,10 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
                                 <!-- start portfolio slider item -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <a class="grid-item" href="#">
                                         <a href="images/imagenesDLUX/galería/soluna7.png"
                                         title="DLUX - Soluna 7 "
@@ -848,32 +1066,32 @@
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <!-- end portfolio slider item -->
-                            </div>
+                            <!-- </div>
                         </div>
                     </div>
 
                 </div>
-            </div>
+            </div>  -->
         </section>
         <!-- end section -->
         <!-- end section -->
-        <section class="bg-greenish-gray position-relative half-section pb-0 overflow-visible">
+        <section class="bg-green2 position-relative half-section pb-0 overflow-visible">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-12 col-lg-6 col-md-10 position-relative bottom-minus-50px z-index-1 md-bottom-inherit md-margin-50px-top sm-margin-20px-top md-margin-9-rem-bottom">
                         <div class="w-80 position-relative z-index-1 wow animate__fadeInLeft">
                             <img src="https://via.placeholder.com/800x1158" alt="" />
                         </div>
-                        <div class="w-80 h-100 bg-fast-yellow position-absolute right-30px bottom-minus-50px overflow-hidden wow animate__fadeInLeft" data-wow-delay="0.2s" data-parallax-layout-ratio="1">
-                            <span class="text-overlap-style-04 alt-font font-weight-600 text-greenish-gray letter-spacing-minus-3px">Mérida, Yuc.</span>
+                        <div class="w-80 h-100 bg-pinks position-absolute right-30px bottom-minus-50px overflow-hidden wow animate__fadeInLeft" data-wow-delay="0.2s" data-parallax-layout-ratio="1">
+                            <span class="text-overlap-style-04 alt-font font-weight-600 text-green2 letter-spacing-minus-3px">Mérida, Yuc.</span>
                         </div>
                     </div>
                     <div class="col-12 col-xl-4 offset-xl-1 col-lg-5 col-md-10 margin-6-rem-bottom xs-margin-5-rem-bottom wow animate__fadeIn" data-wow-delay="0.4s">
-                        <h5 class="alt-font font-weight-500 text-white margin-2-rem-bottom">Vive en <span class="font-weight-600">Mérida Yucatán.</span> </h5>
-                        <p class="opacity-6 text-white text-extra-medium w-95 line-height-32px">Mérida tiene un centro colonial con alma cultural y una moderna zona norte con múltiples opciones de entretenimiento, su cercanía a la playa te permite sentir la tranquilidad y paz de su oleaje tranquilo, arena limpia y atardeceres memorables. <br><br> Vitúa se Ubica en la zona norte de Mérida Yucatán, la cual representa una gran plusvalia y el más alto índice de seguridad de la ciudad.  </p>
-                        <a href="about-us.html" class="alt-font text-extra-medium text-white margin-15px-top">Contáctanos<i class="line-icon-Arrow-OutRight icon-medium align-middle margin-15px-left"></i></a>
+                        <h5 class="alt-font font-weight-500 text-neon-orange margin-2-rem-bottom">Vive en <span class="font-weight-600">Mérida Yucatán.</span> </h5>
+                        <p class="opacity-6 text-neon-orange text-extra-medium w-95 line-height-32px">Mérida tiene un centro colonial con alma cultural y una moderna zona norte con múltiples opciones de entretenimiento, su cercanía a la playa te permite sentir la tranquilidad y paz de su oleaje tranquilo, arena limpia y atardeceres memorables. <br><br> Vitúa se Ubica en la zona norte de Mérida Yucatán, la cual representa una gran plusvalia y el más alto índice de seguridad de la ciudad.  </p>
+                        <a href="about-us.html" class="alt-font text-extra-medium text-neon-orange margin-15px-top">Contáctanos<i class="line-icon-Arrow-OutRight icon-medium align-middle margin-15px-left"></i></a>
                     </div>
                 </div>
             </div>
@@ -1115,5 +1333,11 @@
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/theme-vendors.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="js/designesia.js"></script>
+
+         <!-- SLIDER REVOLUTION SCRIPTS  -->
+         <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+         <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
     </body>
 </html>
