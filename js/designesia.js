@@ -51,10 +51,11 @@ jQuery(document).ready(function () {
 
     var startWindowScroll = 0;
 	  jQuery('.simple-ajax-popup-align-top').magnificPopup({
-		 type: 'ajax',
+		type: 'ajax',
 		fixedContentPos: true,
 		fixedBgPos: true,
-		overflowY: 'auto',
+        showCloseBtn: true,
+        alignTop: true,
 		callbacks: {
 		  beforeOpen: function() {
 			startWindowScroll = $(window).scrollTop();
