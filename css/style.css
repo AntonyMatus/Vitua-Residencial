@@ -48,7 +48,7 @@ Table of contents
 
 @font-face {
     font-family: "AntoniaH1";
-    src: url('../tipografia/Antonia-H1/AntoniaH1-Black.otf');
+    src: url('../tipografia/Antonia-H1/AntoniaH1-Bold.otf');
 }
 
 @font-face {
@@ -143,7 +143,8 @@ header [class^="container-"] [class^="col-"], header [class^="container-"] [clas
 ====================================== */
 
 /* font family */
-.alt-font { font-family: 'Poppins', sans-serif; }
+.alt-font { font-family: 'Secto-Grotesk-B'; }
+.alt-font2{ font-family: 'AntoniaH1';}
 .main-font { font-family: 'Roboto', sans-serif !important; }
 
 /* heading size */
@@ -834,6 +835,8 @@ input.btn:focus { border-width: 2px; }
 .btn.btn-black { background:#000000; border-color: #000000; color: #fff; }
 .btn.btn-black:hover, .btn.btn-black:focus { background: transparent; color: #000; }
 .btn.btn-dark-gray { background: #292B2D;  color: #fff; }
+.btn.btn-pink{background: #F0FFA6; color: #0A4A3B;}
+.btn.btn-pink:hover, .btn.btn-pink:focus { border-color: #292B2D; background: transparent; color: #292B2D; }
 .btn.btn-dark-gray:hover, .btn.btn-dark-gray:focus { border-color: #292B2D; background: transparent; color: #292B2D; }
 .btn.btn-light-gray { background: #dbdbdb; border-color: #dbdbdb; color: #232323; }
 .btn.btn-light-gray:hover, .btn.btn-light-gray:focus { background: transparent; border-color: #dbdbdb; color: #dbdbdb; }
