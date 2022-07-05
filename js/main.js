@@ -408,7 +408,7 @@
         removeWowAnimation( portfolioFilter );
         // Isotope filter
         portfolioFilter.isotope({ filter: selector });
-        return false;
+        return true;
     });
 
     /****** Blog isotope & filter ******/

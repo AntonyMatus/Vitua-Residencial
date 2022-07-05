@@ -189,7 +189,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .text-very-light-gray, .btn-link.text-very-light-gray, a.text-very-light-gray-hover:hover { color:#ededed; }
 .text-fast-blue, .btn-link.text-fast-blue, a.text-fast-blue-hover:hover { color: #0038e3; }
 .text-neon-blue, .btn-link.text-neon-blue, a.text-neon-blue-hover:hover { color: #3452ff; }
-.text-light-pink, .btn-link.text-light-pink, a.text-light-pink-hover:hover { color: #f18c8c; }
+.text-light-pink, .btn-link.text-light-pink, a.text-light-pink-hover:hover { color: #f2927c;  }
 .text-red, .btn-link.text-red, a.text-red-hover:hover { color: #fe0127; }
 .text-dark-red, .btn-link.text-dark-red, a.text-dark-red-hover:hover { color: #d23134; }
 .text-parrot-green, .btn-link.text-parrot-green, a.text-parrot-green-hover:hover { color: #cee002; }
@@ -1853,7 +1853,7 @@ input.btn:focus { border-width: 2px; }
 #terreno { color: black; font-size: 20px; text-align: center;}
 #lista-amenidades{}
 #lista-amenidades2{margin-top: 0px;}
-#navbarNav{justify-content: right;}
+#navbarNav{margin-left: 342px;}
 #amenidades{margin-top: -20px;}
 
 
@@ -3457,6 +3457,8 @@ header .header-cart-icon .cart-count { position: absolute; top: -6px; right: -10
 .grid-filter li a { border: 0; border-bottom: 1px solid; border-color: transparent; color:#828282; padding-bottom: 2px; }
 .grid-filter > li.active > a, .grid-filter > li.active > a:focus, .grid-filter > li.active > a:hover, .grid-filter > li > a:hover { border: 0; color: inherit; border-bottom: 1px solid; color: #232323 }
 
+#centrar{
+}
 /* ===================================
     22. Portfolio
 ====================================== */

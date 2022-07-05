@@ -7998,7 +7998,7 @@
 @media screen and (max-width: 480px) {
     /* yoga meditation*/
     .home-yoga-meditation .rev_slider_wrapper { height: calc(100vh - 72px) !important; }
-
+    #navbarNav{margin-left: 0px;}
     /* home decor */
     .home-decor .rev_slider_wrapper { height: calc(100vh - 100px) !important; }
     /*.home-decor .zeus { transform: matrix(1, 0, 0, 1, -26, -55) !important; }*/
