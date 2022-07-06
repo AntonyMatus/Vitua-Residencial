@@ -5,13 +5,13 @@ if( ! empty( $_POST['email'] ) ) {
 	$enable_smtp = 'no'; // yes OR no
 
 	// Email Receiver Address
-	$receiver_email = 'ing.marcoschi@gmail.com';
+	$receiver_email = 'hola@murumasterbroker.com';
 
 	// Email Receiver Name for SMTP Email
 	$receiver_name 	= 'Natum';
 
 	// Email Subject
-	$subject = 'Nuevo mensaje de mi página web | NATUM';
+	$subject = 'Nuevo lead de mi página web | Vitúa Residencial ';
 
 	$from 	= $_POST['email'];
 	$name 	= isset( $_POST['name'] ) ? $_POST['name'] : '';

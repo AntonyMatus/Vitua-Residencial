@@ -4804,7 +4804,7 @@
 
     /* text size */
     .title-extra-small { font-size: 20px; line-height: 30px; }
-    .title-large { font-size: 45px; line-height: 43px; }
+    .title-large { font-size: 29px; line-height: 43px; }
     .title-extra-large { font-size: 50px; line-height:50px }
     .text-extra-big { font-size: 100px; line-height: 100px; }
     .text-big { font-size: 90px; line-height: 90px; }
@@ -4834,7 +4834,7 @@
 
     /* letter spacing minus */
     .sm-letter-spacing-minus-1-half { letter-spacing: -0.50px; }
-    .sm-letter-spacing-minus-1px { letter-spacing: -1px; }
+    .sm-letter-spacing-minus-1px { letter-spacing: 1px; }
     .sm-letter-spacing-minus-2px { letter-spacing: -2px; }
     .sm-letter-spacing-minus-3px { letter-spacing: -3px; }
     .sm-letter-spacing-minus-4px { letter-spacing: -4px; }
@@ -6122,7 +6122,7 @@
     .grid.gutter-small { margin: 0 -7px; }
     .grid.gutter-small li { padding:7px 7px; }
     .grid.gutter-extra-large li { padding:15px; }
-    .grid.gutter-extra-large { margin:0 -15px; }
+    .grid.gutter-extra-large { margin:0 0px; }
     .grid.gutter-double-extra-large li { padding: 15px; }
     .grid.gutter-medium { margin: 0 -7px; }
     .grid.gutter-medium li { padding: 7px 7px }
@@ -6178,7 +6178,7 @@
     .tab-style-06 .nav-tabs > li.nav-item > a.nav-link { padding: 15px 20px; }
 
     /* tab style 07 */
-    .tab-style-07 .nav-tabs { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+    .tab-style-07 .nav-tabs { -ms-flex-wrap: wrap; flex-wrap: inherit; }
     .tab-style-07 .nav-tabs > li.nav-item { border-bottom: 1px solid #e4e4e4; }
     .tab-style-07 .nav-tabs > li.nav-item > a.nav-link { padding: 10px 30px 8px 30px; }
 
@@ -7999,6 +7999,14 @@
     /* yoga meditation*/
     .home-yoga-meditation .rev_slider_wrapper { height: calc(100vh - 72px) !important; }
     #navbarNav{margin-left: 0px;}
+    #seccion_intro{margin-left: 0px;}
+    #left{text-align: left;}
+    #left2{float: left;}
+    #salto_de_linea{margin-bottom: 50px;}
+    #container_imagen{height: 160px;}
+    .text-extra-medium{font-size: 12px; font-weight: 100;}
+    .text-shadow-large{ text-shadow: 0 0 50px rgba(0, 0, 0, 0.9); }
+    .portfolio-filter{flex-wrap: inherit;}
     /* home decor */
     .home-decor .rev_slider_wrapper { height: calc(100vh - 100px) !important; }
     /*.home-decor .zeus { transform: matrix(1, 0, 0, 1, -26, -55) !important; }*/

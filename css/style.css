@@ -155,7 +155,13 @@ h3 { font-size:3.4rem; line-height:3.9rem; }
 h4 { font-size:2.85rem; line-height:3.4rem; }
 h5 { font-size:2.30rem; line-height:3rem; }
 h6 { font-size:1.80rem; line-height:2.5rem; }
-
+#titulo{font-size: 70px;}
+.m_2{font-size: 20px;}
+#plan_baja{
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: 900;
+}
 /* text size */
 .font-size-0 { font-size: 0; }
 .text-very-small { font-size:11px; line-height:14px; }
@@ -167,7 +173,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .text-extra-large { font-size: 20px; line-height:28px; }
 .title-extra-small { font-size: 30px; line-height: 32px; }
 .title-small { font-size: 36px; line-height: 42px; }
-.title-large { font-size: 100px; line-height:95px; }
+.title-large { font-size: 69px; line-height:95px; }
 .title-large-2 { font-size: 70px; line-height:80px; }
 .title-large-3 { font-size: 80px; line-height:80px; }
 .title-extra-large { font-size: 130px; line-height:120px; }
@@ -562,11 +568,14 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 
 section { padding: 130px 0; overflow: hidden; }
 section.big-section { padding:100px 0; }
+section.big-section2 { padding:50px 0; }
 section.extra-big-section { padding:200px 0; }
 section.half-section { padding:80px 0; }
 .cursor-none { cursor: none; }
 .cursor-default { cursor: default; }
-
+#container_imagen{height: 120px;}
+#container_imagen2{height: 100px;}
+#seccion_intro{margin-left: 41px;}
 /* box layout */
 .box-layout { padding:0 90px; }
 .box-layout-large { padding:0 150px; }
