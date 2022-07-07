@@ -372,7 +372,7 @@
         });
     }
 
-    
+
     /****** Portfolio isotope & filter ******/
     $( '.portfolio-wrapper' ).each( function() {
         var _this = $( this );
@@ -389,6 +389,7 @@
             _this.isotope({
                 layoutMode: 'masonry',
                 itemSelector: '.grid-item',
+                filter: '.branding',
                 percentPosition: true,
                 stagger: 0,
                 masonry: {
