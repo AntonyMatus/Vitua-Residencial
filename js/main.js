@@ -372,6 +372,7 @@
         });
     }
 
+    
     /****** Portfolio isotope & filter ******/
     $( '.portfolio-wrapper' ).each( function() {
         var _this = $( this );
